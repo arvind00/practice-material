@@ -39,10 +39,12 @@ module.exports = {
 ## Try if it is working
 - `app.component.html`
 ```html
-<button mat-raised-button class="mr-2">Basic</button>
+<button mat-raised-button class="mx-2">Basic</button>
+<button class="mx-2">Basic</button>
 ```
+- In the above code class mx-2 which is supposed to provide margin of 0.75rem to left and right 
+- It didn't work out for material components. So restrict using tailwind css classes for layouts or non-material components
 
-- It didn't work out for me. Looks like we need something more if we selected scss for styling.
 ```sh
 npm i @angular-builders/custom-webpack postcss-loader -D
 ```
