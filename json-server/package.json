@@ -1,0 +1,22 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "A simple node and express server to handle HTTP request and serve stub JSON",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "arvindchand <to.arvmail@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arvind00/json-server/issues"
+  },
+  "homepage": "https://github.com/arvind00/json-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
