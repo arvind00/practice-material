@@ -2,11 +2,12 @@
 - [x] create a node and express server to serve stub json
 
 ## Step 1 - clone json-server
-- create a folder `server` in root. Later we will remove it.
-- cd into it and run `git clone https://github.com/arvind00/json-server.git`
+- download the json-server as zip from `https://github.com/arvind00/json-server`
+- unzip it
 - you should see a folder json-server
 - move it to the root folder and delete the `server` folder
 - cd into json-server and run `npm i`
+- remove the repo url details from its package.json
 
 ## Step 2 - update it to serve mat table data
 - Let's make the json-server to serve the data required to construct our dynamic material table
